@@ -1,0 +1,11 @@
+{
+  "version": "0.72.1",
+  "notes": "Update test",
+  "pub_date": "2026-10-10T21:11:46Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQVZzVFR6T1FNakVWTW5temxuR3M0ZmRsc1hjK2g1VXF0YWloVWoxZTF5M3ovOFNUejRFV0N6L1FBRnhUcm95bGtZOHlES3R1S1dURXQ3QVg4UnZNUjhwUUlFNkFJRWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjY2NjQ5CWZpbGU6S2Fub3JhXzAuNzIuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC43Mi4xClRSNk9kcWwxckYxOEpRNXNTVnN2QjBFZ1VsWE5tc3hFRFl6WHJqVXhvUzJQL25xdXFoeU90Z0swdHNmdTJZSkFjaG5yM2ZpRnhpeFhudzl2SGg4L0JBPT0K",
+      "url": "https://github.com/FFxD/kanora-beta/releases/download/v0.72.1-updatetest/Kanora-Beta_0.72.1_x64-update.exe"
+    }
+  }
+}
