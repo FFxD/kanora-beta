@@ -1,0 +1,198 @@
+{
+  "version": "0.73.0",
+  "notes": "- Ein Vergleich lässt sich jetzt auch direkt von einem Lauf aus beginnen: Im Menü einer Sitzung steht „Zum Vergleich hinzufügen“, der Lauf ist dann schon ausgewählt. Der Vergleich gehört weiter zur Vollversion.\n- Der Diagnosebericht enthält jetzt immer die Protokollzeilen zur FPS-Messung aus dem gewählten Lauf, auch wenn der Bericht erst einige Zeit nach dem Lauf erstellt wird.\n- Der Diagnosebericht schützt deine Daten zuverlässiger: Die Seriennummer des Geräts wird jetzt auch dort unkenntlich gemacht, wo sie in Fehlermeldungen der Geräteverbindung oder in der Geräteliste steht, auch bei einem zweiten verbundenen Gerät. Dateipfade deines PCs in den Protokollabschnitten des Berichts werden ebenfalls unkenntlich gemacht.\n- Einstellungen zu einem Lauf festhalten ist jetzt kostenlos: Das Importieren einer Container-Konfiguration und das Einstellungsformular der anderen Launcher sind auch im Testmodus nutzbar. Export und manuelles Bearbeiten von Container-Konfigurationen bleiben der Vollversion vorbehalten.\n- Das Update-Fenster zeigt schon vor der Installation, was die neue Version mitbringt, gegliedert wie im Fenster „Was ist neu“. Gleich nach der Neuinstallation stört es nicht mehr bei der Einrichtung: Ein gefundenes Update steht dann in den Einstellungen und erscheint beim nächsten Start.\n- Updates sind deutlich kleiner: Statt rund 215 MB lädt ein Update jetzt nur noch etwa 9 MB. Reste früherer Updates werden beim Start automatisch aufgeräumt.\n- Ein auf 30 FPS begrenztes Spiel wird zuverlässiger erkannt, jetzt daran, wie gleichmäßig die Bilder kommen. Es wird dann nicht mehr an 60 FPS gemessen und verliert dadurch keine Punkte mehr. Die Bewertung früherer Läufe kann sich leicht ändern. Eine erkannte Begrenzung gilt auch für die übrigen Läufe des Spiels im selben Launcher, ein von Hand gewähltes Ziel gilt pro Spiel und Launcher, und die FPS-Kachel in den Sitzungsdetails zeigt die erkannte Sperre.\n- Kleine Korrekturen im Demo-Modus und an der Score-Karte: Der Tour-Text sagt jetzt, dass dein echter Handheld erst bei ausgeschaltetem Demo-Modus erscheint, und die Übersicht zeigt die neueste Beispielsitzung. „1 % Low“ ist überall gleich geschrieben, und Läufe ohne erkanntes Spiel nennen keine Erkennungssicherheit von 0 % mehr.\n- Läufe ohne erkanntes Spiel sind jetzt gekennzeichnet: Bei Score, Sitzungsliste und Vergleich steht „ohne Spielerkennung“. Der Lauf wird weiter gemessen, gespeichert und bewertet. Vor dem Start weist Kanora darauf hin, wenn noch kein Spiel erkannt wurde.\n- Im Demo-Modus zeigt Kanora jetzt nur noch Beispielsitzungen. Deine eigenen Läufe bleiben unverändert gespeichert und sind sofort wieder da, sobald du den Demo-Modus ausschaltest.\n- „Min“ und „1 % Low“ sind jetzt erklärt: Die Beschriftung sagt, ob der Wert für die letzten Sekunden oder den ganzen Lauf gilt, Hilfetexte nennen den Unterschied, Hänger über einer Sekunde werden gezählt, und der Vergleich warnt, wenn Läufe lückenlos und aus Stichproben gemessen wurden.\n- Kleine Korrekturen an Hinweisen und Fenstern: Die Meldung nach einem Lauf ist besser lesbar, erscheint auf der Live-Seite nicht mehr doppelt und schließt sich mit „Zur Übersicht“. Das Schnellstart-Fenster ist nicht mehr durchscheinend, und die Schließen-Schaltfläche im „Was ist neu“-Fenster ist übersetzt.\n- Die Einführung ist genauer und ruhiger: Die Verbinden-Karte nennt im Beispielmodus das USB-Kabel als ersten Weg, der Zeitstrahl erklärt die roten Absturznummern und die getönte Aufwärmphase, und ein Klick auf die abgedunkelte Fläche nimmt der Karte nicht mehr den Fokus. Ein von Hand gesetzter Spieltitel steht nicht mehr über Beispieldaten.\n- Die Einführung zählt nach „Weitermachen“ ihre Kapitel weiter, statt wieder bei 1 anzufangen. Wechselst du die Sprache, während die Details einer Beispielsitzung offen sind, erscheinen die Absturzeinträge sofort in der neuen Sprache, und der Hinweis in den Sitzungsdetails kündigt nichts Späteres mehr an.\n- Die Einführung verdeckt in kleinen Fenstern nicht mehr, worüber sie gerade spricht, und einige Texte stimmen jetzt genauer mit der App überein: feste Gewichtung des Kanora-Scores gegenüber der eigenen Gewichtung, lückenlose Bildmessung und der Ort der Auswertung unter „Sitzungen“.\n- Hinweise nach einem Lauf gehen nicht mehr verloren: Beendest du einen Lauf, während eine andere Seite offen ist, erscheint eine schmale Meldung mit Link zur Übersicht. Außerdem werden die Absturz-Aufzeichnung und die Zwischensicherung eines laufenden Benchmarks zuverlässiger gespeichert, und eine hängende Tiefen-Benchmark-Aufzeichnung wird beim Beenden aufgeräumt.\n- Korrekturen rund um Läufe und Sicherungen: Exportierte Sitzungen behalten Chip, Android-Version und Bildwiederholrate, und eine Zwischensicherung bleibt nach einem zu kurzen oder unterbrochenen Lauf nicht mehr liegen. Das Update-Fenster legt sich nicht mehr über ein von Hand geöffnetes „Was ist neu“, und die Verbindungsanzeige ist auf Deutsch.\n- Zahlen stimmen jetzt überall überein: Der Hinweis zum Bildtakt und die Sitzungsdetails nennen dieselben Werte wie Liste und Vergleich, und Läufe mit teils aus Stichproben gemessenen FPS sind gekennzeichnet. Beispielläufe im Demo-Modus verändern keine Ziel-FPS echter Spiele mehr.\n- Im Demo-Modus führt ein Klick auf den DEMO-Hinweis oben direkt zur Einstellung „Demo-Modus“: Die Gruppe öffnet sich, die Seite scrollt sanft dorthin und das Kästchen leuchtet kurz auf. Umgeschaltet wird nichts von selbst.\n- Der Schalter „Demo-Modus“ steht jetzt in den Einstellungen unter „Darstellung“ statt unter „Hilfe und Einführung“.\n- Das „Was ist neu“-Fenster ist breiter und übersichtlicher: Links zeigt eine Seitenleiste die neueste Version samt installierter Version, Filter nach Neu, Verbessert und Behoben sowie die Liste aller Versionen, rechts stehen die Punkte als einzelne Kärtchen.\n---\n- You can now start a comparison straight from a run: the menu of a session offers “Add to comparison”, and that run is already selected. Comparing remains part of the full version.\n- The diagnostic report now always contains the log lines about the FPS measurement of the selected run, even when the report is created some time after the run.\n- The diagnostic report protects your data more reliably: the device serial is now also masked where it appears in connection error messages or in the device list, including for a second connected device. File paths of your PC in the report's log sections are masked as well.\n- Recording the settings of a run is now free: importing a container configuration and the settings form of the other launchers work in trial mode too. Export and manual editing of container configurations remain part of the full version.\n- The update window now shows what the new version brings before you install it, organised like the “What's new” window. Right after a fresh installation it no longer interrupts the setup: a found update is listed in Settings and appears on the next start.\n- Updates are much smaller: instead of about 215 MB, an update now downloads only about 9 MB. Leftovers from earlier updates are cleaned up automatically at startup.\n- A game capped at 30 FPS is detected more reliably, now by how evenly its frames arrive. It is then no longer measured against 60 FPS and no longer loses points for it. The rating of earlier runs can change slightly. A detected cap also applies to the other runs of that game in the same launcher, a target chosen by hand applies per game and launcher, and the FPS tile in the session details shows the detected lock.\n- Small corrections in demo mode and on the score card: the tour text now says your real handheld only appears once demo mode is off, and the Overview shows the newest sample session. \"1% low\" is spelled the same everywhere, and runs without a detected game no longer state a detection confidence of 0 %.\n- Runs without a detected game are now marked: the score, the session list and the comparison show “no game detected”. The run is still measured, saved and rated. Before the start Kanora points out when no game has been detected yet.\n- In demo mode Kanora now shows only sample sessions. Your own runs stay stored unchanged and are back right away when you switch demo mode off.\n- “Min” and “1% low” are now explained: the label says whether the value covers the last few seconds or the whole run, help texts spell out the difference, stalls longer than a second are counted, and the comparison warns when runs were measured gaplessly and from samples.\n- Small fixes to notices and windows: the message after a run is easier to read, no longer appears twice on the Live page and closes with “Go to Overview”. The quick-start window is no longer see-through, and the close button in the “What's new” window is translated.\n- The introduction is more precise and calmer: the connect card names the USB cable as the first way in sample mode, the timeline explains the red crash numbers and the tinted warm-up area, and a click on the dimmed area no longer takes the focus from the card. A game title you set by hand no longer sits on top of sample data.\n- After “Continue” the introduction keeps counting its chapters instead of starting at 1 again. If you switch the language while the details of a sample session are open, the crash entries immediately appear in the new language, and the hint in the session details no longer announces anything for later.\n- In small windows the introduction no longer covers what it is talking about, and some texts now match the app more closely: the fixed weighting of the Kanora score versus your own weighting, gapless frame measurement, and where the analysis lives under “Sessions”.\n- Notes after a run no longer get lost: if you end a run while another page is open, a slim message with a link to the Overview appears. In addition, the crash recording and the interim backup of a running benchmark are saved more reliably, and a stuck deep-benchmark recording is cleaned up when the run ends.\n- Fixes around runs and backups: exported sessions keep the chip, Android version and refresh rate, and an interim backup is no longer left behind after a too-short or interrupted run. The update window no longer covers a “What's new” window you opened yourself, and the connection status is translated.\n- Numbers now agree everywhere: the frame-pacing hint and the session details quote the same values as the list and the comparison, and runs whose FPS were partly measured from samples are marked. Sample runs in demo mode no longer change the target FPS of real games.\n- In demo mode, clicking the DEMO notice at the top takes you straight to the “Demo mode” setting: the group opens, the page scrolls there gently and the checkbox lights up briefly. Nothing is switched automatically.\n- The “Demo mode” switch now sits in Settings under “Appearance” instead of “Help and tour”.\n- The “What's new” window is wider and clearer: a sidebar on the left shows the latest version together with the installed one, filters for New, Improved and Fixed and the list of all versions, while the items appear on the right as individual cards.",
+  "pub_date": "2026-10-16T17:02:22Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQVZzVFR6T1FNakY2eFBPSkRnZmlSVG92N2NoMUtYQ0xaL1lUdmkwSlUydWw5Wm0ySUs1VkdYQ2JFTitSWGVYamNWamJVN3V4aFdHYVNkZHlMSUNEZElFb0dTSGhxOGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTY5ODY3CWZpbGU6S2Fub3JhXzAuNzMuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC43My4wCnh0Zzl4WUcvTjBZQkdOd1FWODhneDFxNGhCUHJCUzFZWEQ1QXlWeXRyQk1BVnZBTDJXVktJS2FEaHRrSXNWdGQ5QjVYWGdMVldXeWZWY1pYTTFYN0N3PT0K",
+      "url": "https://github.com/FFxD/kanora-beta/releases/download/v0.73.0-beta/Kanora-Beta_0.73.0_x64-update.exe"
+    }
+  },
+  "kanoraReleaseNotes": [
+    {
+      "version": "0.73.0",
+      "items": [
+        {
+          "kind": "new",
+          "de": "Ein Vergleich lässt sich jetzt auch direkt von einem Lauf aus beginnen: Im Menü einer Sitzung steht „Zum Vergleich hinzufügen“, der Lauf ist dann schon ausgewählt. Der Vergleich gehört weiter zur Vollversion.",
+          "en": "You can now start a comparison straight from a run: the menu of a session offers “Add to comparison”, and that run is already selected. Comparing remains part of the full version."
+        },
+        {
+          "kind": "improved",
+          "de": "Der Diagnosebericht enthält jetzt immer die Protokollzeilen zur FPS-Messung aus dem gewählten Lauf, auch wenn der Bericht erst einige Zeit nach dem Lauf erstellt wird.",
+          "en": "The diagnostic report now always contains the log lines about the FPS measurement of the selected run, even when the report is created some time after the run."
+        },
+        {
+          "kind": "fixed",
+          "de": "Der Diagnosebericht schützt deine Daten zuverlässiger: Die Seriennummer des Geräts wird jetzt auch dort unkenntlich gemacht, wo sie in Fehlermeldungen der Geräteverbindung oder in der Geräteliste steht, auch bei einem zweiten verbundenen Gerät. Dateipfade deines PCs in den Protokollabschnitten des Berichts werden ebenfalls unkenntlich gemacht.",
+          "en": "The diagnostic report protects your data more reliably: the device serial is now also masked where it appears in connection error messages or in the device list, including for a second connected device. File paths of your PC in the report's log sections are masked as well."
+        },
+        {
+          "kind": "improved",
+          "de": "Einstellungen zu einem Lauf festhalten ist jetzt kostenlos: Das Importieren einer Container-Konfiguration und das Einstellungsformular der anderen Launcher sind auch im Testmodus nutzbar. Export und manuelles Bearbeiten von Container-Konfigurationen bleiben der Vollversion vorbehalten.",
+          "en": "Recording the settings of a run is now free: importing a container configuration and the settings form of the other launchers work in trial mode too. Export and manual editing of container configurations remain part of the full version."
+        },
+        {
+          "kind": "improved",
+          "de": "Das Update-Fenster zeigt schon vor der Installation, was die neue Version mitbringt, gegliedert wie im Fenster „Was ist neu“. Gleich nach der Neuinstallation stört es nicht mehr bei der Einrichtung: Ein gefundenes Update steht dann in den Einstellungen und erscheint beim nächsten Start.",
+          "en": "The update window now shows what the new version brings before you install it, organised like the “What's new” window. Right after a fresh installation it no longer interrupts the setup: a found update is listed in Settings and appears on the next start."
+        },
+        {
+          "kind": "improved",
+          "de": "Updates sind deutlich kleiner: Statt rund 215 MB lädt ein Update jetzt nur noch etwa 9 MB. Reste früherer Updates werden beim Start automatisch aufgeräumt.",
+          "en": "Updates are much smaller: instead of about 215 MB, an update now downloads only about 9 MB. Leftovers from earlier updates are cleaned up automatically at startup."
+        },
+        {
+          "kind": "improved",
+          "de": "Ein auf 30 FPS begrenztes Spiel wird zuverlässiger erkannt, jetzt daran, wie gleichmäßig die Bilder kommen. Es wird dann nicht mehr an 60 FPS gemessen und verliert dadurch keine Punkte mehr. Die Bewertung früherer Läufe kann sich leicht ändern. Eine erkannte Begrenzung gilt auch für die übrigen Läufe des Spiels im selben Launcher, ein von Hand gewähltes Ziel gilt pro Spiel und Launcher, und die FPS-Kachel in den Sitzungsdetails zeigt die erkannte Sperre.",
+          "en": "A game capped at 30 FPS is detected more reliably, now by how evenly its frames arrive. It is then no longer measured against 60 FPS and no longer loses points for it. The rating of earlier runs can change slightly. A detected cap also applies to the other runs of that game in the same launcher, a target chosen by hand applies per game and launcher, and the FPS tile in the session details shows the detected lock."
+        },
+        {
+          "kind": "fixed",
+          "de": "Kleine Korrekturen im Demo-Modus und an der Score-Karte: Der Tour-Text sagt jetzt, dass dein echter Handheld erst bei ausgeschaltetem Demo-Modus erscheint, und die Übersicht zeigt die neueste Beispielsitzung. „1 % Low“ ist überall gleich geschrieben, und Läufe ohne erkanntes Spiel nennen keine Erkennungssicherheit von 0 % mehr.",
+          "en": "Small corrections in demo mode and on the score card: the tour text now says your real handheld only appears once demo mode is off, and the Overview shows the newest sample session. \"1% low\" is spelled the same everywhere, and runs without a detected game no longer state a detection confidence of 0 %."
+        },
+        {
+          "kind": "improved",
+          "de": "Läufe ohne erkanntes Spiel sind jetzt gekennzeichnet: Bei Score, Sitzungsliste und Vergleich steht „ohne Spielerkennung“. Der Lauf wird weiter gemessen, gespeichert und bewertet. Vor dem Start weist Kanora darauf hin, wenn noch kein Spiel erkannt wurde.",
+          "en": "Runs without a detected game are now marked: the score, the session list and the comparison show “no game detected”. The run is still measured, saved and rated. Before the start Kanora points out when no game has been detected yet."
+        },
+        {
+          "kind": "improved",
+          "de": "Im Demo-Modus zeigt Kanora jetzt nur noch Beispielsitzungen. Deine eigenen Läufe bleiben unverändert gespeichert und sind sofort wieder da, sobald du den Demo-Modus ausschaltest.",
+          "en": "In demo mode Kanora now shows only sample sessions. Your own runs stay stored unchanged and are back right away when you switch demo mode off."
+        },
+        {
+          "kind": "improved",
+          "de": "„Min“ und „1 % Low“ sind jetzt erklärt: Die Beschriftung sagt, ob der Wert für die letzten Sekunden oder den ganzen Lauf gilt, Hilfetexte nennen den Unterschied, Hänger über einer Sekunde werden gezählt, und der Vergleich warnt, wenn Läufe lückenlos und aus Stichproben gemessen wurden.",
+          "en": "“Min” and “1% low” are now explained: the label says whether the value covers the last few seconds or the whole run, help texts spell out the difference, stalls longer than a second are counted, and the comparison warns when runs were measured gaplessly and from samples."
+        },
+        {
+          "kind": "fixed",
+          "de": "Kleine Korrekturen an Hinweisen und Fenstern: Die Meldung nach einem Lauf ist besser lesbar, erscheint auf der Live-Seite nicht mehr doppelt und schließt sich mit „Zur Übersicht“. Das Schnellstart-Fenster ist nicht mehr durchscheinend, und die Schließen-Schaltfläche im „Was ist neu“-Fenster ist übersetzt.",
+          "en": "Small fixes to notices and windows: the message after a run is easier to read, no longer appears twice on the Live page and closes with “Go to Overview”. The quick-start window is no longer see-through, and the close button in the “What's new” window is translated."
+        },
+        {
+          "kind": "fixed",
+          "de": "Die Einführung ist genauer und ruhiger: Die Verbinden-Karte nennt im Beispielmodus das USB-Kabel als ersten Weg, der Zeitstrahl erklärt die roten Absturznummern und die getönte Aufwärmphase, und ein Klick auf die abgedunkelte Fläche nimmt der Karte nicht mehr den Fokus. Ein von Hand gesetzter Spieltitel steht nicht mehr über Beispieldaten.",
+          "en": "The introduction is more precise and calmer: the connect card names the USB cable as the first way in sample mode, the timeline explains the red crash numbers and the tinted warm-up area, and a click on the dimmed area no longer takes the focus from the card. A game title you set by hand no longer sits on top of sample data."
+        },
+        {
+          "kind": "fixed",
+          "de": "Die Einführung zählt nach „Weitermachen“ ihre Kapitel weiter, statt wieder bei 1 anzufangen. Wechselst du die Sprache, während die Details einer Beispielsitzung offen sind, erscheinen die Absturzeinträge sofort in der neuen Sprache, und der Hinweis in den Sitzungsdetails kündigt nichts Späteres mehr an.",
+          "en": "After “Continue” the introduction keeps counting its chapters instead of starting at 1 again. If you switch the language while the details of a sample session are open, the crash entries immediately appear in the new language, and the hint in the session details no longer announces anything for later."
+        },
+        {
+          "kind": "fixed",
+          "de": "Die Einführung verdeckt in kleinen Fenstern nicht mehr, worüber sie gerade spricht, und einige Texte stimmen jetzt genauer mit der App überein: feste Gewichtung des Kanora-Scores gegenüber der eigenen Gewichtung, lückenlose Bildmessung und der Ort der Auswertung unter „Sitzungen“.",
+          "en": "In small windows the introduction no longer covers what it is talking about, and some texts now match the app more closely: the fixed weighting of the Kanora score versus your own weighting, gapless frame measurement, and where the analysis lives under “Sessions”."
+        },
+        {
+          "kind": "fixed",
+          "de": "Hinweise nach einem Lauf gehen nicht mehr verloren: Beendest du einen Lauf, während eine andere Seite offen ist, erscheint eine schmale Meldung mit Link zur Übersicht. Außerdem werden die Absturz-Aufzeichnung und die Zwischensicherung eines laufenden Benchmarks zuverlässiger gespeichert, und eine hängende Tiefen-Benchmark-Aufzeichnung wird beim Beenden aufgeräumt.",
+          "en": "Notes after a run no longer get lost: if you end a run while another page is open, a slim message with a link to the Overview appears. In addition, the crash recording and the interim backup of a running benchmark are saved more reliably, and a stuck deep-benchmark recording is cleaned up when the run ends."
+        },
+        {
+          "kind": "fixed",
+          "de": "Korrekturen rund um Läufe und Sicherungen: Exportierte Sitzungen behalten Chip, Android-Version und Bildwiederholrate, und eine Zwischensicherung bleibt nach einem zu kurzen oder unterbrochenen Lauf nicht mehr liegen. Das Update-Fenster legt sich nicht mehr über ein von Hand geöffnetes „Was ist neu“, und die Verbindungsanzeige ist auf Deutsch.",
+          "en": "Fixes around runs and backups: exported sessions keep the chip, Android version and refresh rate, and an interim backup is no longer left behind after a too-short or interrupted run. The update window no longer covers a “What's new” window you opened yourself, and the connection status is translated."
+        },
+        {
+          "kind": "fixed",
+          "de": "Zahlen stimmen jetzt überall überein: Der Hinweis zum Bildtakt und die Sitzungsdetails nennen dieselben Werte wie Liste und Vergleich, und Läufe mit teils aus Stichproben gemessenen FPS sind gekennzeichnet. Beispielläufe im Demo-Modus verändern keine Ziel-FPS echter Spiele mehr.",
+          "en": "Numbers now agree everywhere: the frame-pacing hint and the session details quote the same values as the list and the comparison, and runs whose FPS were partly measured from samples are marked. Sample runs in demo mode no longer change the target FPS of real games."
+        },
+        {
+          "kind": "new",
+          "de": "Im Demo-Modus führt ein Klick auf den DEMO-Hinweis oben direkt zur Einstellung „Demo-Modus“: Die Gruppe öffnet sich, die Seite scrollt sanft dorthin und das Kästchen leuchtet kurz auf. Umgeschaltet wird nichts von selbst.",
+          "en": "In demo mode, clicking the DEMO notice at the top takes you straight to the “Demo mode” setting: the group opens, the page scrolls there gently and the checkbox lights up briefly. Nothing is switched automatically."
+        },
+        {
+          "kind": "improved",
+          "de": "Der Schalter „Demo-Modus“ steht jetzt in den Einstellungen unter „Darstellung“ statt unter „Hilfe und Einführung“.",
+          "en": "The “Demo mode” switch now sits in Settings under “Appearance” instead of “Help and tour”."
+        },
+        {
+          "kind": "improved",
+          "de": "Das „Was ist neu“-Fenster ist breiter und übersichtlicher: Links zeigt eine Seitenleiste die neueste Version samt installierter Version, Filter nach Neu, Verbessert und Behoben sowie die Liste aller Versionen, rechts stehen die Punkte als einzelne Kärtchen.",
+          "en": "The “What's new” window is wider and clearer: a sidebar on the left shows the latest version together with the installed one, filters for New, Improved and Fixed and the list of all versions, while the items appear on the right as individual cards."
+        }
+      ]
+    },
+    {
+      "version": "0.72.0",
+      "items": [
+        {
+          "kind": "new",
+          "de": "Du kannst einen Benchmark jetzt von jeder Seite aus starten und stoppen: In der Leiste steht ein Knopf, der dich auch die Laufzeit sehen lässt, während du in Sitzungen, Guide oder Einstellungen stöberst. Die große Kopf-Kachel auf der Live-Seite entfällt, weil sie nur wiederholte, was darunter und in der Leiste steht.",
+          "en": "You can now start and stop a benchmark from any page: a button in the bar also shows the elapsed time while you browse Sessions, the Guide or Settings. The large header tile on the Live page is gone, as it only repeated what is shown below it and in the bar."
+        },
+        {
+          "kind": "fixed",
+          "de": "FPS-Werte erscheinen jetzt auch, wenn das Spiel erst spät nach dem Start des Laufs ein Bild zeigt.",
+          "en": "FPS values now also appear when the game only shows a picture late after the run has started."
+        },
+        {
+          "kind": "improved",
+          "de": "Die Einführung wartet beim ersten Messlauf nicht mehr ratlos: Im Demo-Modus läuft die Uhr im Zeitraffer, auf dem Handheld zählt ein Countdown bis zum frühesten Stopp und erklärt nebenbei, was gemessen wird. Wer nicht warten möchte, macht mit einer Beispielsitzung weiter.",
+          "en": "The introduction no longer leaves you waiting blindly during the first measurement: in demo mode the clock runs in time-lapse, on the handheld a countdown shows the earliest moment you can stop and explains what is being measured meanwhile. If you'd rather not wait, continue with a sample session."
+        },
+        {
+          "kind": "new",
+          "de": "Der Kanora-Score rechnet jetzt mit einer festen Formel und ändert sich nicht mehr nachträglich, wenn du weitere Läufe misst. Der erste Lauf eines Spiels bekommt nicht mehr automatisch 100.",
+          "en": "The Kanora score now uses a fixed formula and no longer changes afterwards when you measure more runs. The first run of a game no longer gets 100 automatically."
+        },
+        {
+          "kind": "new",
+          "de": "Der Score wird als Ring gezeigt. Wenn du in den Einstellungen eine eigene Gewichtung wählst, erscheint sie als zweiter, innerer Ring mit eigener Zahl neben dem Kanora-Score. Ein Beispielring samt Legende in den Einstellungen zeigt live, was die Regler bewirken.",
+          "en": "The score is shown as a ring. If you choose your own weighting in Settings, it appears as a second, inner ring with its own number next to the Kanora score. A sample ring with a legend in Settings shows live what the sliders do."
+        },
+        {
+          "kind": "improved",
+          "de": "Die Ziel-FPS lässt sich pro Spiel einstellen. Standardmäßig erkennt Kanora das Ziel selbst.",
+          "en": "The target FPS can be set per game. By default Kanora detects the target itself."
+        },
+        {
+          "kind": "improved",
+          "de": "Läufe unter 5 Minuten werden als vorläufig gekennzeichnet. Zusätzlich zeigt der Score, wie lang der Lauf war.",
+          "en": "Runs under 5 minutes are marked as provisional. The score also shows how long the run was."
+        },
+        {
+          "kind": "new",
+          "de": "Nach einem Update zeigt Kanora einmalig, was sich geändert hat. Die Übersicht findest du jederzeit in den Einstellungen bei der Version.",
+          "en": "After an update, Kanora shows once what has changed. You can open the overview any time in Settings next to the version."
+        },
+        {
+          "kind": "new",
+          "de": "Live-Tab: Ist ein Spieltitel bestätigt, zeigt das Platzhalter-Cover das mit einem Rand und einem Häkchen in der Systemfarbe.",
+          "en": "Live tab: once a game title is confirmed, the placeholder cover shows it with a rim and a check mark in the system color."
+        },
+        {
+          "kind": "fixed",
+          "de": "Demo-Modus: Cover werden nur noch für die mitgelieferten Beispielspiele geladen.",
+          "en": "Demo mode: covers are now only loaded for the bundled sample games."
+        },
+        {
+          "kind": "new",
+          "de": "Kanora hat ein neues Logo und ein neues App-Symbol.",
+          "en": "Kanora has a new logo and a new app icon."
+        },
+        {
+          "kind": "fixed",
+          "de": "Sitzungsliste: Dauer, Score und Menüknopf stehen in allen Spielgruppen untereinander, auch wenn Gerät oder Launcher unterschiedlich lang heißen.",
+          "en": "Session list: duration, score and menu button now line up across all game groups, even when device or launcher names differ in length."
+        },
+        {
+          "kind": "improved",
+          "de": "Die Erklärung zum Score erscheint jetzt beim Darüberfahren mit der Maus über dasselbe Fragezeichen wie überall in der App. Alle Fragezeichen-Symbole haben das Zeichen mittig. Im Observatorium sehen die Kästen unter dem Zeitstrahl so hell aus wie die Kästen in den Einstellungen.",
+          "en": "The score explanation now appears when you hover over the same question mark as everywhere else in the app. All question mark symbols have the mark centred. In the Observatory theme the boxes below the timeline are as light as the boxes in Settings."
+        },
+        {
+          "kind": "improved",
+          "de": "FPS und 1 % Low werden jetzt über alle Bilder eines Laufs gemessen statt aus Stichproben; das 1 % Low entspricht damit der üblichen Definition. In den Einstellungen lässt sich die lückenlose Messung ausschalten.",
+          "en": "FPS and the 1% low are now measured over all frames of a run instead of from samples; the 1% low now follows the usual definition. Gapless measurement can be turned off in Settings."
+        }
+      ]
+    }
+  ]
+}
