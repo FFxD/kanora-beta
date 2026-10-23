@@ -1,0 +1,14 @@
+{
+  "versionCode": 24,
+  "versionName": "0.15.0",
+  "url": "https://github.com/FFxD/kanora-beta/releases/download/companion-v0.15.0/Kanora-Companion_0.15.0.apk",
+  "sha256": "4d7c5182cbd81b8033da5b313d02953c08e948c95d32c0ea2163fa67c25e92d0",
+  "size": 3164655,
+  "notes": [
+    {
+      "kind": "new",
+      "de": "Der Companion sucht selbst nach Updates und installiert sie, ohne dass die App gelöscht werden muss.",
+      "en": "The Companion now checks for updates by itself and installs them without having to delete the app first."
+    }
+  ]
+}
