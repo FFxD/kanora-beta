@@ -1,14 +1,44 @@
 {
-  "versionCode": 24,
-  "versionName": "0.15.0",
-  "url": "https://github.com/FFxD/kanora-beta/releases/download/companion-v0.15.0/Kanora-Companion_0.15.0.apk",
-  "sha256": "4d7c5182cbd81b8033da5b313d02953c08e948c95d32c0ea2163fa67c25e92d0",
-  "size": 3164655,
+  "versionCode": 25,
+  "versionName": "0.16.0",
+  "url": "https://github.com/FFxD/kanora-beta/releases/download/companion-v0.16.0/Kanora-Companion_0.16.0.apk",
+  "sha256": "64e839ffb0b2093609a4c26b467f553c44dbb21098424f371920c5168fb5176f",
+  "size": 3202899,
   "notes": [
     {
+      "kind": "fixed",
+      "de": "Nach einem Neustart des Geräts beginnt ein Lauf über die Schnellstart-Kachel ohne Spiel und Config vom letzten Mal, damit kein Lauf unter falschen Einstellungen landet.",
+      "en": "After restarting the device, a run started from the quick settings tile no longer carries over the game and config from last time, so no run is filed under the wrong settings."
+    },
+    {
       "kind": "new",
-      "de": "Der Companion sucht selbst nach Updates und installiert sie, ohne dass die App gelöscht werden muss.",
-      "en": "The Companion now checks for updates by itself and installs them without having to delete the app first."
+      "de": "Im Startfenster der Schnellstart-Kachel kannst du jetzt direkt eine Config wählen oder ohne Config messen.",
+      "en": "In the start window of the quick settings tile you can now pick a config or measure without one right there."
+    },
+    {
+      "kind": "new",
+      "de": "Läufe mit Frame Generation werden gekennzeichnet, automatisch aus der Config oder von Hand im Lauf-Menü, weil erzeugte Bilder die FPS erhöhen.",
+      "en": "Runs with frame generation are marked, automatically from the config or by hand in the run menu, because generated frames raise the FPS."
+    },
+    {
+      "kind": "improved",
+      "de": "Frame Generation wird genauer erkannt, und das Auswahlfenster erklärt, wann du sie von Hand setzen solltest.",
+      "en": "Frame generation is detected more accurately, and the selector explains when to set it by hand."
+    },
+    {
+      "kind": "new",
+      "de": "Auf der Mess-Seite kannst du während eines Laufs direkt einen Marker setzen, per Knopf oder mit der Y-Taste.",
+      "en": "On the measure page you can now set a marker during a run, by button or with the Y button."
+    },
+    {
+      "kind": "new",
+      "de": "Marker erscheinen nummeriert in der Kurve und in einer Liste mit Zeit und FPS. Direkt nach dem Setzen kannst du sie mit einem Tipp benennen, etwa „Ruckler“ oder „Ladebildschirm“, und im Lauf zeigt ein Antippen, wie die FPS davor und danach waren.",
+      "en": "Markers now appear numbered on the curve and in a list with time and FPS. Right after setting one you can name it with a tap, such as \"Stutter\" or \"Loading screen\", and in the run a tap shows the FPS before and after."
+    },
+    {
+      "kind": "new",
+      "de": "Jeder neue Lauf merkt sich die installierte Version des Launchers, damit du Läufe über Updates hinweg vergleichen kannst.",
+      "en": "Every new run now remembers the installed launcher version, so you can compare runs across updates."
     }
   ]
 }

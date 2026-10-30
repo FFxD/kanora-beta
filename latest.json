@@ -1,14 +1,64 @@
 {
-  "version": "0.74.0",
-  "notes": "- Im Erfolgs-Fenster nach dem Übernehmen von Läufen vom Handheld sind die Spiele-Cover jetzt deutlich größer.\n- Beim Übernehmen von Läufen vom Handheld gleicht Kanora die eingestellten Ziel-FPS ab. Hat das Handheld anders gewertet als der PC, sagt eine Meldung genau, was abweicht und welcher Wert ab jetzt gilt.\n- Das Fenster zum Übernehmen von Läufen vom Handheld ist übersichtlicher: Neue Läufe stehen nach Spiel gebündelt, bereits übernommene nur noch als eine Zeile, deine Auswahl bleibt erhalten, und nach dem Übernehmen bestätigt eine Meldung mit den Spiele-Covern, wie viele Läufe angekommen sind.\n- Auf Geräten mit zwei Bildschirmen erkennt der Benchmark jetzt das Spiel statt der App auf dem anderen Bildschirm.\n- Die Spielerkennung bei Windows-Spielen ignoriert jetzt Hilfsprogramme und erkennt das eigentliche Spiel zuverlässiger.\n---\n- In the success window after taking over runs from the handheld, the game covers are now much larger.\n- When taking over runs from the handheld, Kanora now syncs the chosen target FPS. If the handheld rated a run differently than the PC, a message says exactly what differs and which value applies from now on.\n- The window for taking over runs from the handheld is clearer: new runs are grouped by game, runs already taken over appear as a single line, your selection is kept, and afterwards a message with the game covers confirms how many runs arrived.\n- On devices with two screens, the benchmark now detects the game instead of the app on the other screen.\n- Game detection for Windows games now ignores helper programs and recognises the actual game more reliably.",
-  "pub_date": "2026-10-23T18:35:29Z",
+  "version": "0.75.0",
+  "notes": "- Der Guide hat einen eigenen Bereich für WinNative: Standardwerte und Einstellungen, die von GameNative und Winlator abweichen, sind dort einzeln erklärt.\n- WinNative wird jetzt als Launcher erkannt und steht in der Launcher-Auswahl. Die Konfiguration trägst du wie bei Winlator von Hand ein.\n- Kanora installiert den Companion jetzt mit einem Klick auf dein Handheld, per Kabel oder WLAN. Die Einführung bietet das als eigenes Kapitel an, später findest du es unter Einstellungen › Companion-App.\n- Läufe mit Frame Generation sind jetzt gekennzeichnet, weil erzeugte Zwischenbilder die gemessenen FPS erhöhen. Kanora erkennt das aus der angehängten Konfiguration, du kannst es im Lauf aber auch selbst setzen. Der Vergleich warnt, wenn Läufe mit und ohne Frame Generation nebeneinanderstehen.\n- Im Sitzungsdetail stehen die Etiketten jetzt gesammelt in einer Zeile unter dem Spielnamen.\n- Die Erkennung von Frame Generation ist genauer: Wurde sie im Spiel ausgeschaltet, zählt der Lauf nicht mehr als Frame-Generation-Lauf. Ein Hinweis in der Auswahl erklärt, wann du sie besser von Hand setzt.\n- Im Sitzungsdetail stehen keine FPS und keine Sitzungsdauer aus der importierten Konfiguration mehr. Sie stammten aus der Sitzung davor und passten nicht zum gemessenen Lauf.\n- Jeder neue Lauf merkt sich, welche Version des Launchers installiert war, am PC wie im Companion. Du findest sie im Sitzungsdetail unter dem Launcher, praktisch zum Vergleichen über Updates hinweg und zum Teilen deiner Einstellungen.\n- Installer und erster Start folgen jetzt der Windows-Sprache. Außer bei Deutsch startet Kanora auf Englisch; deine eigene Sprachwahl bleibt wie gehabt erhalten.\n---\n- The guide has its own section for WinNative: defaults and settings that differ from GameNative and Winlator are explained one by one.\n- WinNative is now recognised as a launcher and appears in the launcher picker. You enter its configuration by hand, as with Winlator.\n- Kanora now installs the Companion on your handheld with a single click, over cable or Wi-Fi. The tour offers this as its own chapter, and you can find it later under Settings › Companion app.\n- Runs with frame generation are now marked, because generated in-between frames raise the measured FPS. Kanora detects this from the attached configuration, and you can also set it yourself in the run. The comparison warns when runs with and without frame generation sit side by side.\n- In the session detail, the tags now sit together in one row below the game name.\n- Frame generation detection is more accurate: if it was switched off in-game, the run no longer counts as a frame generation run. A note in the selector explains when to set it by hand instead.\n- The session detail no longer shows FPS and session length taken from the imported configuration. They came from the previous session and did not match the measured run.\n- Every new run now remembers which launcher version was installed, on PC and in the Companion. You'll find it in the session detail below the launcher, handy for comparing across updates and for sharing your settings.\n- The installer and the first launch now follow your Windows language. Unless it is German, Kanora starts in English; your own language choice is kept as before.",
+  "pub_date": "2026-10-30T10:20:48Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQVZzVFR6T1FNakhTdm5QMm1hV0dEQ0hMdFhQNkpXdFRVczFUeCtsWWVrcjFjaVZMek0xTUNpREFWWW5nRWErS1NydDFDZXZsT0pIcGV5b2NCYmNHa2J6bE1uWkN1RWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzgwNDE3CWZpbGU6S2Fub3JhXzAuNzQuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC43NC4wCnplNGdkYlEzMTd1MlNjSzdjK0ZMa1krNHJocCtOQStoeVQrUHJORS91N01vZFFNWGlLa2FraUdpa053N1pKM3Y3dEZXemRaQk1iTG5EN2Jxc2E1SUFBPT0K",
-      "url": "https://github.com/FFxD/kanora-beta/releases/download/v0.74.0-beta/Kanora-Beta_0.74.0_x64-update.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQVZzVFR6T1FNakFrTzl3enNZeUlGQXVuMEhkRUE0VDg2aitBUHYwQ1lTRE80d0FRZ2hib21OY1UxR0hrNTM4VUZsZG9oakM3OTdXMG1Va2lmVmJ6S0VSSm9UNTVZYUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzU1NTI4CWZpbGU6S2Fub3JhXzAuNzUuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC43NS4wCmJLQjU5YjUrd3JGRlhRdUVubUIvelAzMlhWbzkxbk91TzJNTFRybjVId0tGcUdqVFlLa1dKTldLTTk3N2RycHUvV1lWcDArdU1UV1IwMitYaWtPRUFRPT0K",
+      "url": "https://github.com/FFxD/kanora-beta/releases/download/v0.75.0-beta/Kanora-Beta_0.75.0_x64-update.exe"
     }
   },
   "kanoraReleaseNotes": [
+    {
+      "version": "0.75.0",
+      "items": [
+        {
+          "kind": "new",
+          "de": "Der Guide hat einen eigenen Bereich für WinNative: Standardwerte und Einstellungen, die von GameNative und Winlator abweichen, sind dort einzeln erklärt.",
+          "en": "The guide has its own section for WinNative: defaults and settings that differ from GameNative and Winlator are explained one by one."
+        },
+        {
+          "kind": "new",
+          "de": "WinNative wird jetzt als Launcher erkannt und steht in der Launcher-Auswahl. Die Konfiguration trägst du wie bei Winlator von Hand ein.",
+          "en": "WinNative is now recognised as a launcher and appears in the launcher picker. You enter its configuration by hand, as with Winlator."
+        },
+        {
+          "kind": "new",
+          "de": "Kanora installiert den Companion jetzt mit einem Klick auf dein Handheld, per Kabel oder WLAN. Die Einführung bietet das als eigenes Kapitel an, später findest du es unter Einstellungen › Companion-App.",
+          "en": "Kanora now installs the Companion on your handheld with a single click, over cable or Wi-Fi. The tour offers this as its own chapter, and you can find it later under Settings › Companion app."
+        },
+        {
+          "kind": "new",
+          "de": "Läufe mit Frame Generation sind jetzt gekennzeichnet, weil erzeugte Zwischenbilder die gemessenen FPS erhöhen. Kanora erkennt das aus der angehängten Konfiguration, du kannst es im Lauf aber auch selbst setzen. Der Vergleich warnt, wenn Läufe mit und ohne Frame Generation nebeneinanderstehen.",
+          "en": "Runs with frame generation are now marked, because generated in-between frames raise the measured FPS. Kanora detects this from the attached configuration, and you can also set it yourself in the run. The comparison warns when runs with and without frame generation sit side by side."
+        },
+        {
+          "kind": "improved",
+          "de": "Im Sitzungsdetail stehen die Etiketten jetzt gesammelt in einer Zeile unter dem Spielnamen.",
+          "en": "In the session detail, the tags now sit together in one row below the game name."
+        },
+        {
+          "kind": "improved",
+          "de": "Die Erkennung von Frame Generation ist genauer: Wurde sie im Spiel ausgeschaltet, zählt der Lauf nicht mehr als Frame-Generation-Lauf. Ein Hinweis in der Auswahl erklärt, wann du sie besser von Hand setzt.",
+          "en": "Frame generation detection is more accurate: if it was switched off in-game, the run no longer counts as a frame generation run. A note in the selector explains when to set it by hand instead."
+        },
+        {
+          "kind": "improved",
+          "de": "Im Sitzungsdetail stehen keine FPS und keine Sitzungsdauer aus der importierten Konfiguration mehr. Sie stammten aus der Sitzung davor und passten nicht zum gemessenen Lauf.",
+          "en": "The session detail no longer shows FPS and session length taken from the imported configuration. They came from the previous session and did not match the measured run."
+        },
+        {
+          "kind": "new",
+          "de": "Jeder neue Lauf merkt sich, welche Version des Launchers installiert war, am PC wie im Companion. Du findest sie im Sitzungsdetail unter dem Launcher, praktisch zum Vergleichen über Updates hinweg und zum Teilen deiner Einstellungen.",
+          "en": "Every new run now remembers which launcher version was installed, on PC and in the Companion. You'll find it in the session detail below the launcher, handy for comparing across updates and for sharing your settings."
+        },
+        {
+          "kind": "improved",
+          "de": "Installer und erster Start folgen jetzt der Windows-Sprache. Außer bei Deutsch startet Kanora auf Englisch; deine eigene Sprachwahl bleibt wie gehabt erhalten.",
+          "en": "The installer and the first launch now follow your Windows language. Unless it is German, Kanora starts in English; your own language choice is kept as before."
+        }
+      ]
+    },
     {
       "version": "0.74.0",
       "items": [
