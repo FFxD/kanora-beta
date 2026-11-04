@@ -1,14 +1,39 @@
 {
-  "version": "0.75.0",
-  "notes": "- Der Guide hat einen eigenen Bereich für WinNative: Standardwerte und Einstellungen, die von GameNative und Winlator abweichen, sind dort einzeln erklärt.\n- WinNative wird jetzt als Launcher erkannt und steht in der Launcher-Auswahl. Die Konfiguration trägst du wie bei Winlator von Hand ein.\n- Kanora installiert den Companion jetzt mit einem Klick auf dein Handheld, per Kabel oder WLAN. Die Einführung bietet das als eigenes Kapitel an, später findest du es unter Einstellungen › Companion-App.\n- Läufe mit Frame Generation sind jetzt gekennzeichnet, weil erzeugte Zwischenbilder die gemessenen FPS erhöhen. Kanora erkennt das aus der angehängten Konfiguration, du kannst es im Lauf aber auch selbst setzen. Der Vergleich warnt, wenn Läufe mit und ohne Frame Generation nebeneinanderstehen.\n- Im Sitzungsdetail stehen die Etiketten jetzt gesammelt in einer Zeile unter dem Spielnamen.\n- Die Erkennung von Frame Generation ist genauer: Wurde sie im Spiel ausgeschaltet, zählt der Lauf nicht mehr als Frame-Generation-Lauf. Ein Hinweis in der Auswahl erklärt, wann du sie besser von Hand setzt.\n- Im Sitzungsdetail stehen keine FPS und keine Sitzungsdauer aus der importierten Konfiguration mehr. Sie stammten aus der Sitzung davor und passten nicht zum gemessenen Lauf.\n- Jeder neue Lauf merkt sich, welche Version des Launchers installiert war, am PC wie im Companion. Du findest sie im Sitzungsdetail unter dem Launcher, praktisch zum Vergleichen über Updates hinweg und zum Teilen deiner Einstellungen.\n- Installer und erster Start folgen jetzt der Windows-Sprache. Außer bei Deutsch startet Kanora auf Englisch; deine eigene Sprachwahl bleibt wie gehabt erhalten.\n---\n- The guide has its own section for WinNative: defaults and settings that differ from GameNative and Winlator are explained one by one.\n- WinNative is now recognised as a launcher and appears in the launcher picker. You enter its configuration by hand, as with Winlator.\n- Kanora now installs the Companion on your handheld with a single click, over cable or Wi-Fi. The tour offers this as its own chapter, and you can find it later under Settings › Companion app.\n- Runs with frame generation are now marked, because generated in-between frames raise the measured FPS. Kanora detects this from the attached configuration, and you can also set it yourself in the run. The comparison warns when runs with and without frame generation sit side by side.\n- In the session detail, the tags now sit together in one row below the game name.\n- Frame generation detection is more accurate: if it was switched off in-game, the run no longer counts as a frame generation run. A note in the selector explains when to set it by hand instead.\n- The session detail no longer shows FPS and session length taken from the imported configuration. They came from the previous session and did not match the measured run.\n- Every new run now remembers which launcher version was installed, on PC and in the Companion. You'll find it in the session detail below the launcher, handy for comparing across updates and for sharing your settings.\n- The installer and the first launch now follow your Windows language. Unless it is German, Kanora starts in English; your own language choice is kept as before.",
-  "pub_date": "2026-10-30T10:20:48Z",
+  "version": "0.75.1",
+  "notes": "- Beim Aktivieren eines Schlüssels wird nicht mehr der Name deines PCs übertragen, sondern eine zufällige Kennung. Du findest sie in den Einstellungen bei deiner Lizenz.\n- Die FPS werden bei mehr Anzeige-Modi von Windows-Emulatoren richtig gemessen. Vorher konnten fälschlich etwa 1 FPS erscheinen.\n- Der Dialog zum Bearbeiten der Config bietet jetzt alle Einstellungen an, die auch in den Sitzungsdetails stehen.\n- Spielname und Cover kommen jetzt aus einer importierten Config, wenn sie zum erkannten Spiel passt.\n---\n- Activating a key no longer transmits the name of your PC, only a random ID. You can find it in Settings next to your license.\n- FPS are now measured correctly on more display modes of Windows emulators. Before, they could wrongly read about 1 FPS.\n- The config edit dialog now offers all settings shown in the session details.\n- Game title and cover now come from an imported config when it matches the detected game.",
+  "pub_date": "2026-11-04T20:08:50Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQVZzVFR6T1FNakFrTzl3enNZeUlGQXVuMEhkRUE0VDg2aitBUHYwQ1lTRE80d0FRZ2hib21OY1UxR0hrNTM4VUZsZG9oakM3OTdXMG1Va2lmVmJ6S0VSSm9UNTVZYUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzU1NTI4CWZpbGU6S2Fub3JhXzAuNzUuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC43NS4wCmJLQjU5YjUrd3JGRlhRdUVubUIvelAzMlhWbzkxbk91TzJNTFRybjVId0tGcUdqVFlLa1dKTldLTTk3N2RycHUvV1lWcDArdU1UV1IwMitYaWtPRUFRPT0K",
-      "url": "https://github.com/FFxD/kanora-beta/releases/download/v0.75.0-beta/Kanora-Beta_0.75.0_x64-update.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQVZzVFR6T1FNak9iN1ZsQWtydzVWMjFYNUpLbnROa0dodmR2Y2pCc0VTbFFzVGMwcDA4d3FsUlozNzJvRHZxZmY1SzcyMW1PcmlVeWtEdkhqM2hzRldiYlN1WlRqY2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODIyODEyCWZpbGU6S2Fub3JhXzAuNzUuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC43NS4xCitHOVk4alhQdzdRdldIYUdqdmxnSlR2M1dzUUROa05ack1TcDc3MU5EdHBDL2VvUWV6S25mSWFWODRVa2FyYVB5Q2h6RXJBUEVtdXdLU3N5amE1cUN3PT0K",
+      "url": "https://github.com/FFxD/kanora-beta/releases/download/v0.75.1-beta/Kanora-Beta_0.75.1_x64-update.exe"
     }
   },
   "kanoraReleaseNotes": [
+    {
+      "version": "0.75.1",
+      "items": [
+        {
+          "kind": "improved",
+          "de": "Beim Aktivieren eines Schlüssels wird nicht mehr der Name deines PCs übertragen, sondern eine zufällige Kennung. Du findest sie in den Einstellungen bei deiner Lizenz.",
+          "en": "Activating a key no longer transmits the name of your PC, only a random ID. You can find it in Settings next to your license."
+        },
+        {
+          "kind": "fixed",
+          "de": "Die FPS werden bei mehr Anzeige-Modi von Windows-Emulatoren richtig gemessen. Vorher konnten fälschlich etwa 1 FPS erscheinen.",
+          "en": "FPS are now measured correctly on more display modes of Windows emulators. Before, they could wrongly read about 1 FPS."
+        },
+        {
+          "kind": "improved",
+          "de": "Der Dialog zum Bearbeiten der Config bietet jetzt alle Einstellungen an, die auch in den Sitzungsdetails stehen.",
+          "en": "The config edit dialog now offers all settings shown in the session details."
+        },
+        {
+          "kind": "improved",
+          "de": "Spielname und Cover kommen jetzt aus einer importierten Config, wenn sie zum erkannten Spiel passt.",
+          "en": "Game title and cover now come from an imported config when it matches the detected game."
+        }
+      ]
+    },
     {
       "version": "0.75.0",
       "items": [
