@@ -1,57 +1,87 @@
 {
-  "versionCode": 26,
-  "versionName": "0.17.0",
-  "url": "https://github.com/FFxD/kanora-beta/releases/download/companion-v0.17.0/Kanora-Companion_0.17.0.apk",
-  "sha256": "addd2b9587790addddcee6b906b61827816ba83230fc676cd680d5a27ed8c048",
-  "size": 3240286,
+  "versionCode": 27,
+  "versionName": "0.18.0",
+  "url": "https://github.com/FFxD/kanora-beta/releases/download/companion-v0.18.0/Kanora-Companion_0.18.0.apk",
+  "sha256": "7f3d46d168b47dfa53cb33d774d825c717e6e056af8e53f6774346760730a349",
+  "size": 3241338,
   "notes": [
     {
-      "kind": "new",
-      "de": "Nach jedem Update zeigt die App einmal, was neu ist, auch wenn das Update vom PC kam.",
-      "en": "After every update the app shows once what is new, even if the update came from the PC."
+      "kind": "improved",
+      "de": "Die Config-Auswahl und das Optionen-Fenster haben jetzt einen Abbrechen-Knopf, du brauchst also keine Zurück-Geste mehr.",
+      "en": "The config list and the options window now have a Cancel button, so you no longer need the back gesture."
     },
     {
       "kind": "improved",
-      "de": "Das Update-Fenster listet alle Neuerungen seit deiner Version auf, auch aus übersprungenen Versionen.",
-      "en": "The update window lists everything new since your version, including skipped versions."
-    },
-    {
-      "kind": "new",
-      "de": "Im Config-Fenster kannst du jetzt über „Andere Datei wählen…“ eine Datei aus jedem Ordner nehmen.",
-      "en": "In the config window you can now use \"Choose another file…\" to take a file from any folder."
+      "de": "Nach dem Start über die Schnellstart-Kachel öffnet sich die App nicht mehr von selbst.",
+      "en": "Starting a run from the quick settings tile no longer opens the app by itself."
     },
     {
       "kind": "improved",
-      "de": "Die Liste zeigt alle JSON-Dateien des Ordners, also auch Configs anderer Emulatoren.",
-      "en": "The list shows all JSON files in the folder, including configs from other emulators."
+      "de": "Läufe über die Schnellstart-Kachel fragen nicht mehr „Wie lief es?“. Bewerten kannst du sie jederzeit im Lauf.",
+      "en": "Runs started from the quick settings tile no longer ask how it went. You can rate them any time in the run."
+    },
+    {
+      "kind": "new",
+      "de": "Ist ein Lauf über die Schnellstart-Kachel fertig, sagt dir eine lautlose Benachrichtigung Bescheid.",
+      "en": "When a run started from the quick settings tile has finished, a silent notification tells you."
+    },
+    {
+      "kind": "improved",
+      "de": "Die gewählte Config benennt deinen Lauf jetzt immer. Die App vergleicht sie nicht mehr mit dem laufenden Spiel, achte also im Startfenster darauf, welche Config gewählt ist.",
+      "en": "The chosen config now always names your run. The app no longer compares it with the running game, so check in the start window which config is selected."
     },
     {
       "kind": "fixed",
-      "de": "Eine Datei, die sich nicht lesen lässt, meldet die App jetzt sofort bei der Auswahl und nicht erst nach dem Lauf.",
-      "en": "A file that cannot be read is now reported right when you choose it, not after the run."
+      "de": "Die Schnellstart-Kachel zeigt gleich nach dem Start, dass die Messung vorbereitet wird.",
+      "en": "The quick settings tile now shows right after the start that the measurement is being prepared."
     },
     {
       "kind": "fixed",
-      "de": "Eine Config von einem anderen Spiel benennt deinen Lauf nicht mehr um. Ihr Titel gilt nur, wenn sie zum laufenden Spiel passt oder noch kein Spiel erkannt wurde.",
-      "en": "A config from another game no longer renames your run. Its title only counts if it matches the running game or no game has been detected yet."
-    },
-    {
-      "kind": "fixed",
-      "de": "Die Schnellstart-Kachel behält eine passende Config jetzt auch, wenn das Programm des Spiels anders heißt als das Spiel. Der Hinweis „anderes Spiel?“ erscheint dann ebenfalls nicht mehr.",
-      "en": "The Quick Settings tile now keeps a matching config even if the game's program is named differently from the game. The \"other game?\" hint no longer appears in that case either."
-    },
-    {
-      "kind": "fixed",
-      "de": "„Config wählen“ im Startfenster der Schnellstart-Kachel stürzt nicht mehr ab und zeigt auch keine falsche Verbindungsmeldung mehr.",
-      "en": "\"Choose config\" in the start window of the quick settings tile no longer crashes or shows a wrong connection message."
-    },
-    {
-      "kind": "fixed",
-      "de": "Spieltitel mit Doppelpunkt erscheinen nicht mehr mit Unterstrich, und das Cover wird gefunden.",
-      "en": "Game titles with a colon no longer show an underscore, and the cover is found."
+      "de": "Das Fenster der Schnellstart-Kachel schließt sich nicht mehr nach kurzer Zeit von selbst.",
+      "en": "The window of the quick settings tile no longer closes by itself after a short time."
     }
   ],
   "releaseNotes": [
+    {
+      "versionName": "0.18.0",
+      "items": [
+        {
+          "kind": "improved",
+          "de": "Die Config-Auswahl und das Optionen-Fenster haben jetzt einen Abbrechen-Knopf, du brauchst also keine Zurück-Geste mehr.",
+          "en": "The config list and the options window now have a Cancel button, so you no longer need the back gesture."
+        },
+        {
+          "kind": "improved",
+          "de": "Nach dem Start über die Schnellstart-Kachel öffnet sich die App nicht mehr von selbst.",
+          "en": "Starting a run from the quick settings tile no longer opens the app by itself."
+        },
+        {
+          "kind": "improved",
+          "de": "Läufe über die Schnellstart-Kachel fragen nicht mehr „Wie lief es?“. Bewerten kannst du sie jederzeit im Lauf.",
+          "en": "Runs started from the quick settings tile no longer ask how it went. You can rate them any time in the run."
+        },
+        {
+          "kind": "new",
+          "de": "Ist ein Lauf über die Schnellstart-Kachel fertig, sagt dir eine lautlose Benachrichtigung Bescheid.",
+          "en": "When a run started from the quick settings tile has finished, a silent notification tells you."
+        },
+        {
+          "kind": "improved",
+          "de": "Die gewählte Config benennt deinen Lauf jetzt immer. Die App vergleicht sie nicht mehr mit dem laufenden Spiel, achte also im Startfenster darauf, welche Config gewählt ist.",
+          "en": "The chosen config now always names your run. The app no longer compares it with the running game, so check in the start window which config is selected."
+        },
+        {
+          "kind": "fixed",
+          "de": "Die Schnellstart-Kachel zeigt gleich nach dem Start, dass die Messung vorbereitet wird.",
+          "en": "The quick settings tile now shows right after the start that the measurement is being prepared."
+        },
+        {
+          "kind": "fixed",
+          "de": "Das Fenster der Schnellstart-Kachel schließt sich nicht mehr nach kurzer Zeit von selbst.",
+          "en": "The window of the quick settings tile no longer closes by itself after a short time."
+        }
+      ]
+    },
     {
       "versionName": "0.17.0",
       "items": [
