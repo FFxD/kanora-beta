@@ -1,14 +1,24 @@
 {
-  "version": "0.75.1",
-  "notes": "- Beim Aktivieren eines Schlüssels wird nicht mehr der Name deines PCs übertragen, sondern eine zufällige Kennung. Du findest sie in den Einstellungen bei deiner Lizenz.\n- Die FPS werden bei mehr Anzeige-Modi von Windows-Emulatoren richtig gemessen. Vorher konnten fälschlich etwa 1 FPS erscheinen.\n- Der Dialog zum Bearbeiten der Config bietet jetzt alle Einstellungen an, die auch in den Sitzungsdetails stehen.\n- Spielname und Cover kommen jetzt aus einer importierten Config, wenn sie zum erkannten Spiel passt.\n---\n- Activating a key no longer transmits the name of your PC, only a random ID. You can find it in Settings next to your license.\n- FPS are now measured correctly on more display modes of Windows emulators. Before, they could wrongly read about 1 FPS.\n- The config edit dialog now offers all settings shown in the session details.\n- Game title and cover now come from an imported config when it matches the detected game.",
-  "pub_date": "2026-11-04T20:08:50Z",
+  "version": "0.75.2",
+  "notes": "- Kanora bringt die neue Version des Companion mit: Config-Auswahl und Optionen-Fenster haben einen Abbrechen-Knopf, Läufe über die Schnellstart-Kachel öffnen die App nicht mehr und melden ihr Ende mit einer lautlosen Benachrichtigung, und die gewählte Config benennt deinen Lauf jetzt immer.\n---\n- Kanora ships the new Companion version: the config list and the options window have a Cancel button, runs started from the quick settings tile no longer open the app and report their end with a silent notification, and the chosen config now always names your run.",
+  "pub_date": "2026-11-06T10:23:34Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQVZzVFR6T1FNak9iN1ZsQWtydzVWMjFYNUpLbnROa0dodmR2Y2pCc0VTbFFzVGMwcDA4d3FsUlozNzJvRHZxZmY1SzcyMW1PcmlVeWtEdkhqM2hzRldiYlN1WlRqY2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODIyODEyCWZpbGU6S2Fub3JhXzAuNzUuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC43NS4xCitHOVk4alhQdzdRdldIYUdqdmxnSlR2M1dzUUROa05ack1TcDc3MU5EdHBDL2VvUWV6S25mSWFWODRVa2FyYVB5Q2h6RXJBUEVtdXdLU3N5amE1cUN3PT0K",
-      "url": "https://github.com/FFxD/kanora-beta/releases/download/v0.75.1-beta/Kanora-Beta_0.75.1_x64-update.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQVZzVFR6T1FNakVCVGJTUVZMaXNJREVQS1k2WVowK3llVGpiaHdnS1dVbjNla2FLcG94SzRxRng2aG04OXV1TXB5NHRVMUpwSWY0SVVLK0xnNnB4MkhHeStEMnBhTndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTYwNDgxCWZpbGU6S2Fub3JhXzAuNzUuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC43NS4yCmhiNTU5L0kzL3M0T1czaiszM0JaSjRRb0xaaCtOaTV3Wnhka0V5NHg4TXJheGw5QXp5OXE4ZHFWd2dHdTVpQXpnVldlZFBibGZLZEQ1ZlpUYWNJeURBPT0K",
+      "url": "https://github.com/FFxD/kanora-beta/releases/download/v0.75.2-beta/Kanora-Beta_0.75.2_x64-update.exe"
     }
   },
   "kanoraReleaseNotes": [
+    {
+      "version": "0.75.2",
+      "items": [
+        {
+          "kind": "improved",
+          "de": "Kanora bringt die neue Version des Companion mit: Config-Auswahl und Optionen-Fenster haben einen Abbrechen-Knopf, Läufe über die Schnellstart-Kachel öffnen die App nicht mehr und melden ihr Ende mit einer lautlosen Benachrichtigung, und die gewählte Config benennt deinen Lauf jetzt immer.",
+          "en": "Kanora ships the new Companion version: the config list and the options window have a Cancel button, runs started from the quick settings tile no longer open the app and report their end with a silent notification, and the chosen config now always names your run."
+        }
+      ]
+    },
     {
       "version": "0.75.1",
       "items": [
